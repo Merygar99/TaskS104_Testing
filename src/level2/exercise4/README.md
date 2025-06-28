@@ -8,7 +8,7 @@ Create an ArrayList containing several types of objects (create them as well). W
 Now verify that the list contains the objects regardless of order. Verify that one of the objects was added only once to the list. Leave one object out and verify that the list does not contain this last one.
 
 ## 📚 Exercise Overview
-This repository contains one programming exercise focused on Collections in Java.
+This repository contains one programming exercise focused on Testing in Java.
 
 ✅ Object List Assertions with AssertJ
 

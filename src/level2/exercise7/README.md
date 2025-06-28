@@ -6,7 +6,7 @@ This repository contains the solution to a programming exercise designed to stre
 Create an empty Optional object. Write the correct assertion to verify that it is indeed empty.
 
 ## 📚 Exercise Overview
-This repository contains one programming exercise focused on Collections in Java.
+This repository contains one programming exercise focused on Testing in Java.
 
 ✅ Validating an Empty Optional
 This project includes an example demonstrating how to create an empty Optional in Java and assert that it contains no value:

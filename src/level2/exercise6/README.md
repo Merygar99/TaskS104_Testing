@@ -6,7 +6,7 @@ This repository contains the solution to a programming exercise designed to stre
 Trigger an ArrayIndexOutOfBoundsException in any class. Create an assertion that validates the exception is thrown as expected.
 
 ## 📚 Exercise Overview
-This repository contains one programming exercise focused on Collections in Java.
+This repository contains one programming exercise focused on Testing in Java.
 
 ✅ Exception Handling Assertion
 This project includes an example that deliberately triggers an ArrayIndexOutOfBoundsException and uses AssertJ to validate that the exception is correctly thrown:
