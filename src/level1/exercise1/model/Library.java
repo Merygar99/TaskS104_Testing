@@ -15,10 +15,15 @@ public class Library {
 
     @Override
     public String toString() {
-        return "Library {" + "library Books = " + libraryBooks + '}';
+        return "Book list: " +  this.getLibraryBooks();
     }
 
     public void addBooksToTheLibrary(Book book) {
+        for(Book b : libraryBooks) {
+            if(b.getTitle().equalsIgnoreCase(book.getTitle())) {
+                return;
+            }
+        }
         libraryBooks.add(book);
     }
 
@@ -50,4 +55,5 @@ public class Library {
         }
         System.out.println("The book with the title " + title + " has been removed");
     }
+
 }

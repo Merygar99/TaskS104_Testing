@@ -21,9 +21,10 @@ public class CalculateId {
     }
 
     public String calculateIdLetter() {
-        ArrayList<String> lettersOfDNI = new ArrayList<>(List.of("T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"));
-        String DNILetter;
-        DNILetter = lettersOfDNI.get(this.id % 23);
-        return DNILetter;
+        ArrayList<String> lettersOfId = new ArrayList<>(List.of("T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"));
+        String idLetter;
+        idLetter = lettersOfId.get(this.id % 23);
+        return idLetter;
     }
+
 }

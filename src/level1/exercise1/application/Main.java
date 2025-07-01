@@ -39,7 +39,12 @@ public class Main {
 
         System.out.println("------------------------------");
 
-        library1.removeBook("'Harry Potter and the Sorcerer's Stone'");
+        library1.removeBook("Harry Potter and the Sorcerer's Stone");
+
+        System.out.println("Library inventory");
+        for (Book actualBook : library1.getLibraryBooks()) {
+            System.out.println("- " + actualBook.getTitle());
+        }
 
     }
 }
