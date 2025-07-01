@@ -4,7 +4,7 @@
 This repository contains the solution to a programming exercise designed to strengthen my skills in Java development. The project showcases the implementation of core concepts using Java, version control with Git, and project management with IntelliJ IDEA.
 
 ## 📚 Exercise Overview
-This repository contains one programming exercise focused on Collections in Java.
+This repository contains one programming exercise focused on Testing in Java.
 
 Create a class named CalculateId that calculates the corresponding letter of a ID number given its numeric part as a parameter.
 

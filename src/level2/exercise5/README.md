@@ -6,7 +6,7 @@ This repository contains the solution to a programming exercise designed to stre
 Create a map and verify that it contains one of the keys that was added to it.
 
 ## 📚 Exercise Overview
-This repository contains one programming exercise focused on Collections in Java.
+This repository contains one programming exercise focused on Testing in Java.
 
 ✅ Key Existence Assertion in a Map
 

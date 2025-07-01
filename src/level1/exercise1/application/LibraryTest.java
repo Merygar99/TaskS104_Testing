@@ -35,7 +35,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void testLibraryBookPosition() throws Throwable {
+    public void testLibraryBookCorrectPosition() throws Throwable {
         library.addBooksToTheLibrary(book1);
         library.addBooksToTheLibrary(book2);
         library.addBooksToTheLibrary(book3);
